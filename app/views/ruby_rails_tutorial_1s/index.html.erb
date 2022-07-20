@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Ruby rails tutorial 1s</h1>
+
+<div id="ruby_rails_tutorial_1s">
+  <% @ruby_rails_tutorial_1s.each do |ruby_rails_tutorial_1| %>
+    <%= render ruby_rails_tutorial_1 %>
+    <p>
+      <%= link_to "Show this ruby rails tutorial 1", ruby_rails_tutorial_1 %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New ruby rails tutorial 1", new_ruby_rails_tutorial_1_path %>

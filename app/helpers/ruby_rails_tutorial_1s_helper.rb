@@ -1,0 +1,2 @@
+module RubyRailsTutorial1sHelper
+end
