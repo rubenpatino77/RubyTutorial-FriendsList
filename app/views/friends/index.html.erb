@@ -3,6 +3,8 @@
 
   <h1>Friends List</h1>
 
+
+
   <!-- ANOTHER WAY TO DISPLAY FRIENDS BUT DOES NOT USE A 'TABLE' TAG FOR BOOTSRAP TABLE LAYOUT
 
   <div id="friends" class="table">
@@ -16,6 +18,9 @@
 
   <%= link_to "New friend", new_friend_path %>
   -->
+
+
+
 
   <table class="table table-striped table-bordered table-hover">
     <thead class="thead-dark">
@@ -48,7 +53,7 @@
 
   <%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
 <% else %>
-  <h1>Hello worlds</h1>
+  <h2><%= @home_page_statement %></h2>
 
 <% end %>
 
